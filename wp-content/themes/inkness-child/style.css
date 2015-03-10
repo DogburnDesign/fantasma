@@ -24,6 +24,7 @@
   color: #ED1C24 ;
     transition: .2s all;
     -webkit-transition: .2s all;
+    -moz-transition: .2s all;
 }
 #site-navigation li:hover > a {
   border-bottom: #ED1C24 solid 2px ;
@@ -69,8 +70,14 @@ a {
     color: #ED1C24;
     transition: .2s all;
     -webkit-transition: .2s all;
+    -moz-transition: .2s all;
 }
 a:hover, a:focus, a:active {
   color: #EA8084;
+}
+
+/* MUSIC PLAYER */
+.fantasma-player-music{
+    border-radius: 5px
 }
 /* located in Theme Options */
