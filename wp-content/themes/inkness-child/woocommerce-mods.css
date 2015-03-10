@@ -1,0 +1,43 @@
+.woocommerce ul.products li.product a img, .woocommerce-page ul.products li.product a img{
+    box-shadow: none;
+    -webkit-box-shadow:none;
+}
+.woocommerce div.product form.cart .variations label, .woocommerce #content div.product form.cart .variations label, .woocommerce-page div.product form.cart .variations label, .woocommerce-page #content div.product form.cart .variations label{
+    color:#999;
+}
+.woocommerce div.product .woocommerce-tabs .panel, .woocommerce #content div.product .woocommerce-tabs .panel, .woocommerce-page div.product .woocommerce-tabs .panel, .woocommerce-page #content div.product .woocommerce-tabs .panel{
+    padding:5px 20px;
+}
+.woocommerce div.product div.images img, .woocommerce #content div.product div.images img, .woocommerce-page div.product div.images img, .woocommerce-page #content div.product div.images img{
+    box-shadow: none;
+    -webkit-box-shadow:none;
+}
+.woocommerce ul.products li.product a img:hover, .woocommerce-page ul.products li.product a img:hover{
+    border:1px dashed red;
+    box-shadow: none;
+    border-radius: 5px;
+}
+.nivocapper{
+    border-radius: 0px;
+    margin-top: 0px;
+    padding: 10px 15px;
+}
+.woocommerce .woocommerce-info, .woocommerce-page .woocommerce-info, .woocommerce .woocommerce-message, .woocommerce-page .woocommerce-message{
+    border-top: 0;
+    background:#CBCBCB;
+}
+.woocommerce .woocommerce-message:before, .woocommerce .woocommerce-error:before, .woocommerce .woocommerce-info:before, .woocommerce-page .woocommerce-message:before, .woocommerce-page .woocommerce-error:before, .woocommerce-page .woocommerce-info:before{
+    line-height: 0;
+}
+.woocommerce #payment, .woocommerce-page #payment{
+    background: #f4f4f4;
+}
+.woocommerce .woocommerce-message:before, .woocommerce .woocommerce-error:before, .woocommerce .woocommerce-info:before, .woocommerce-page .woocommerce-message:before, .woocommerce-page .woocommerce-error:before, .woocommerce-page .woocommerce-info:before{
+    margin-top: 0px;
+}
+.woocommerce .cart-collaterals .cart_totals table tr:first-child th, .woocommerce .cart-collaterals .cart_totals table tr:first-child td, .woocommerce-page .cart-collaterals .cart_totals table tr:first-child th, .woocommerce-page .cart-collaterals .cart_totals table tr:first-child td, .woocommerce .cart-collaterals .cart_totals tr td, .woocommerce .cart-collaterals .cart_totals tr th, .woocommerce-page .cart-collaterals .cart_totals tr td, .woocommerce-page .cart-collaterals .cart_totals tr th{
+    padding:10px;
+}
+.woocommerce .cart-collaterals .cart_totals table, .woocommerce-page .cart-collaterals .cart_totals table{
+    border: 1px solid #BDBDBD;
+}

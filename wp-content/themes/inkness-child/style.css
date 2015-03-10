@@ -1,0 +1,76 @@
+/*
+ Theme Name:   Inkness Child
+ Theme URI:    http://dogburndesign.com
+ Description:  Inkness Child Theme is a modified theme by Dale Wilkerson
+ Author:       Dale Wilkerson
+ Author URI:   http://dogburndesign.com
+ Template:     inkness
+ Version:      1.0.0
+ Tags: light, custom-background, two-columns, right-sidebar, responsive-layout, custom-menu, sticky-post, theme-options, threaded-comments, translation-ready, gray, left-sidebar, custom-menu, editor-style, featured-images, full-width-template, sticky-post, theme-options, threaded-comments
+*/
+@import url(solarsystem.css);
+@import url(woocommerce-mods.css);
+#header-top {
+    background: url(http://localhost:8888/fantasma/wp-content/uploads/2015/01/tiny_grid.png) ;
+    padding-top: 10px;
+    box-shadow: 0px 0px 12px -2px #999 inset;
+    position: relative;
+    overflow: hidden;
+}
+
+#site-navigation a:hover {
+  border-bottom: #ED1C24 solid 2px ;
+  background: none;
+  color: #ED1C24 ;
+    transition: .2s all;
+    -webkit-transition: .2s all;
+}
+#site-navigation li:hover > a {
+  border-bottom: #ED1C24 solid 2px ;
+  padding-bottom: 23px;
+  color: #ED1C24 ;
+}
+#top-search ::-webkit-input-placeholder {
+    color: #ED1C24 ;
+}
+#top-search button{
+    color:#ED1C24 ;
+}
+.social-icon:hover {
+  color: #ED1C24 ;
+  text-shadow: 3px 3px 1px rgba(0,0,0,.2) ;
+  top: -1px;
+  left: -1px;
+}
+.nivo-caption {
+	position:absolute;
+	top:10%;
+    width:500px;
+	text-align:left;
+	left:-35% ;
+}
+div.slide-title {
+  font-family:Georgia, serif;
+}
+#secondary h1.widget-title{
+    color:#ED1C24 ;
+    font-family:Georgia, serif ;
+}
+#content{
+    padding-top:0;
+}
+.single .entry-title, .page .entry-title{
+    color:#ED1C24 ;
+    font-family:Georgia,serif;
+}
+
+/* located in Theme Options */
+a {
+    color: #ED1C24;
+    transition: .2s all;
+    -webkit-transition: .2s all;
+}
+a:hover, a:focus, a:active {
+  color: #EA8084;
+}
+/* located in Theme Options */
